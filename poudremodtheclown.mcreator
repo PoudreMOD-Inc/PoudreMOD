@@ -14,6 +14,7 @@
     "websiteURL": "https://poudremod.wixsite.com/poudremod",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "poudremod_1",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

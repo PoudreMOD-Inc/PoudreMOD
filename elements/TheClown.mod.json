@@ -7,7 +7,7 @@
     "mobModelTexture": "unnamed-e130.png",
     "mobModelName": "Zombie",
     "modelWidth": 0.6,
-    "modelHeight": 1.95,
+    "modelHeight": 1.75,
     "modelShadowSize": 0.5,
     "armorBaseValue": 0.0,
     "hasSpawnEgg": true,

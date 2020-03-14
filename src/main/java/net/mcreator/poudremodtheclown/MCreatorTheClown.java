@@ -73,7 +73,7 @@ public class MCreatorTheClown extends Elementspoudremodtheclown.ModElement {
 	public static class EntityCustom extends EntityZombie {
 		public EntityCustom(World world) {
 			super(world);
-			setSize(0.6f, 1.95f);
+			setSize(0.6f, 1.75f);
 			experienceValue = 500;
 			this.isImmuneToFire = true;
 			setNoAI(!true);

@@ -1,1 +1,20 @@
-{}
+{
+  "mod.theclownambiant.terrorradius": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "poudremodtheclown:dead_by_daylight_chase_music",
+        "stream": false
+      }
+    ]
+  },
+  "mod.clownchase.musicchase": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "poudremodtheclown:dead_by_daylight_chase_music_2",
+        "stream": false
+      }
+    ]
+  }
+}

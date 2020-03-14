@@ -26,6 +26,7 @@ import net.minecraft.world.gen.IChunkGenerator;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.World;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.potion.Potion;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
@@ -67,6 +68,10 @@ public class Elementspoudremodtheclown implements IFuelHandler, IWorldGenerator 
 	}
 
 	public void registerSounds(RegistryEvent.Register<net.minecraft.util.SoundEvent> event) {
+		ResourceLocation sound0 = new ResourceLocation("poudremodtheclown", "mod.theclownambiant.terrorradius");
+		event.getRegistry().register(new net.minecraft.util.SoundEvent(sound0).setRegistryName(sound0));
+		ResourceLocation sound1 = new ResourceLocation("poudremodtheclown", "mod.clownchase.musicchase");
+		event.getRegistry().register(new net.minecraft.util.SoundEvent(sound1).setRegistryName(sound1));
 	}
 
 	@Override
